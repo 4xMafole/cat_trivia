@@ -1,0 +1,29 @@
+name: cat_fact_repository
+description: A dart package to connect to cat fact domain.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+  flutter: 3.7.0
+
+dependencies:
+  build_runner: ^2.3.3
+  cat_fact_client:
+    path: ../cat_fact_client
+  cat_image_client:
+    path: ../cat_image_client
+
+  flutter:
+    sdk: flutter
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  json_annotation: ^4.8.0
+  json_serializable: ^6.6.1
+  local_storage:
+    path: ../local_storage
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^4.0.0

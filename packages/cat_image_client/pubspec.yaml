@@ -1,0 +1,23 @@
+name: cat_image_client
+description: A dart package to connect to cat image data source.
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+  flutter: 3.7.0
+
+dependencies:
+  build_runner: ^2.3.3
+  flutter:
+    sdk: flutter
+  json_annotation: ^4.8.0
+  json_serializable: ^6.6.1
+  retrofit: ^4.0.1
+  retrofit_generator: ^6.0.0+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^4.0.0
