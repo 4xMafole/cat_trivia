@@ -24,7 +24,7 @@ dependencies:
   hive: ^2.2.3
   hive_flutter: ^1.1.0
   intl: ^0.17.0
-  json_serializable: ^6.6.1
+  json_serializable: ^6.6.2
   retrofit: ^4.0.1
   retrofit_generator: ^6.0.0+1
 
